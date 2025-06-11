@@ -1,22 +1,22 @@
-# Welcome to your Lovable project
+# Personal Portfolio Project
 
 ## Project info
 
-**URL**: https://lovable.dev/projects/d011c452-63f1-4802-a391-a2724cce2d08
+**URL**: https://daviddzgoev.github.io
 
 ## How can I edit this code?
 
 There are several ways of editing your application.
 
-**Use Lovable**
+**Use GitHub Web Editor**
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/d011c452-63f1-4802-a391-a2724cce2d08) and start prompting.
+You can edit files directly in GitHub's web interface for quick changes.
 
-Changes made via Lovable will be committed automatically to this repo.
+Changes made via GitHub web editor will be committed automatically to this repo.
 
 **Use your preferred IDE**
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will be automatically deployed to your site.
 
 The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
 
@@ -62,12 +62,12 @@ This project is built with:
 
 ## How can I deploy this project?
 
-Simply open [Lovable](https://lovable.dev/projects/d011c452-63f1-4802-a391-a2724cce2d08) and click on Share -> Publish.
+This project is automatically deployed to GitHub Pages when changes are pushed to the main branch.
 
-## Can I connect a custom domain to my Lovable project?
+## Can I connect a custom domain to my GitHub Pages site?
 
 Yes, you can!
 
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
+To connect a domain, navigate to your repository's Settings > Pages > Custom domain and enter your domain name.
 
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
+Read more here: [Setting up a custom domain with GitHub Pages](https://docs.github.com/en/pages/configuring-a-custom-domain-for-your-github-pages-site)
