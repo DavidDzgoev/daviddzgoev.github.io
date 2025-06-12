@@ -15,7 +15,6 @@ pids/
 *.pid.lock
 
 # Build output
-dist/
 build/
 .out/
 .next/
