@@ -4,7 +4,19 @@ import path from "path";
 
 // https://vitejs.dev/config/
 export default defineConfig(({ mode }) => ({
-  base: "/",
+  base: "./",
+  build: {
+    outDir: "dist",
+    emptyOutDir: true,
+    sourcemap: mode === "development", // Карты исходников только для разработки
+    // Оптимизация сборки
+    minify: "terser",
+    cssMinify: true,
+    // Предварительная загрузка ресурсов
+    modulePreload: {
+      polyfill: true,
+    },
+  },
   server: {
     host: "::",
     port: 8080,

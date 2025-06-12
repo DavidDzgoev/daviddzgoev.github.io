@@ -106,7 +106,7 @@ const Index = () => {
         <div className="mb-8 p-8 rounded-3xl bg-gradient-to-br from-gray-50 to-blue-50 shadow-[inset_0_2px_4px_rgba(255,255,255,0.9),_inset_0_-2px_4px_rgba(0,0,0,0.1),_0_8px_32px_rgba(31,38,135,0.37)]">
           <div className="flex flex-col lg:flex-row items-center gap-8">
             <div className="w-32 h-32 rounded-full bg-gradient-to-br from-blue-200 to-gray-300 shadow-[inset_0_4px_8px_rgba(255,255,255,0.7),_inset_0_-4px_8px_rgba(0,0,0,0.1)] flex items-center justify-center">
-              <img src="/photo.png" alt="Profile Photo" className="w-32 h-32 rounded-full bg-gradient-to-br from-blue-200 to-gray-300 shadow-[inset_0_4px_8px_rgba(255,255,255,0.7),_inset_0_-4px_8px_rgba(0,0,0,0.1)]" />            </div>
+              <img src="./photo.png" alt="Profile Photo" className="w-32 h-32 rounded-full bg-gradient-to-br from-blue-200 to-gray-300 shadow-[inset_0_4px_8px_rgba(255,255,255,0.7),_inset_0_-4px_8px_rgba(0,0,0,0.1)]" />            </div>
             <div className="flex-1 text-center lg:text-left">
               <h1 className="text-5xl font-bold text-gray-800 mb-3">David Dzgoev</h1>
               <p className="text-2xl text-gray-600 mb-4">Looking for python backend senior (IC4) roles</p>
